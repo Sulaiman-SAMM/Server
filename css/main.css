@@ -1,0 +1,155 @@
+/* Start Golobel Sules */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:root {
+    --min-color: black;
+    --main-color-p: #7f7f7f;
+    --min-color-white: white;
+    --min-color-EEE: #f9f2f2;
+    --min-color-prosser: #ff7058;
+    --min-color-server: #80dcfe;
+    --min-color-ieda: #4cd4c0;
+    --min-color-stop-work: #ffd260;
+
+}
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: var(--min-color-EEE);
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Small */
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+/* Mudium */
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+/* Large */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+/* End Golobel Sules */
+/* Start Section */
+.container section {
+    text-align: center;
+    width: 503px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: -120px;
+}
+.container .all-elements .main {
+    background-color: var(--min-color);
+    background-image: url(../imags/main.jpg);
+    background-size: cover;
+    position: relative;
+    border-radius: 50%;
+    height: 55vh;
+    width: 55vh;
+    margin: 0 auto;
+}
+.container .all-elements  .main .landing {
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0 0 0 / 60%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container .all-elements  .main .landing h2 {
+    color: var(--min-color-white);
+    margin-top: -10px;
+
+}
+.container .all-elements  .main .landing p {
+    color: var(--min-color-white);
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+}
+.container .all-elements  .box-1 {
+    width: 1000px;
+    margin: 0px auto;
+    position: relative;
+    bottom: -8em;
+}
+.container .all-elements  .box-2 {
+    width: 1000px;
+    margin: 0px auto;
+    position: relative;
+    bottom: 6em;
+}
+.container .all-elements  .box-1 .icons,
+.container .all-elements  .box-2 .icons {
+    display: flex;
+    justify-content: space-between;
+}
+.container .all-elements  .box-1 .icons .icon,
+.container .all-elements  .box-2 .icons .icon {
+    display: flex;
+    flex-direction: row;
+    z-index: 10;
+}
+.container .all-elements  .box-1 .icons .icon img,
+.container .all-elements  .box-2 .icons .icon img {
+    width: 140px;
+    height: 140px;
+    border: 10px solid var(--min-color-white);
+    border-radius: 25%;
+    padding: 11px;
+
+}
+.container .all-elements  .box-1 .icons .icon .oran {
+    background-color: var(--min-color-prosser);
+}
+.container .all-elements  .box-1 .icons .icon .blau {
+    background-color: var(--min-color-server);
+}
+.container .all-elements  .box-2 .icons .icon .yallo {
+    background-color: var(--min-color-stop-work);
+}
+.container .all-elements  .box-2 .icons .icon .grun {
+    background-color: var(--min-color-ieda);
+}
+.container .all-elements  .box-1 .icons .icon .info,
+.container .all-elements  .box-2 .icons .icon .info {
+    width: 230px;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: center;
+}
+.container .all-elements  .box-1 .icons .icon .info h3,
+.container .all-elements  .box-2 .icons .icon .info h3 {
+    font-weight: bold;
+}
+.container .all-elements  .box-1 .icons .icon .info p,
+.container .all-elements  .box-2 .icons .icon .info p {
+    color: var(--main-color-p);
+    line-height: 1.5;
+}
+/* End Section */
